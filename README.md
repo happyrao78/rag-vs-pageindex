@@ -1,6 +1,4 @@
-# RAG Without Vectors
-
-# The First Reasoning-Native Architecture for Long-Form Document Intelligence
+# RAG Without Vectors: The First Reasoning-Native Architecture for Long-Form Document Intelligence
 
 Traditional Retrieval-Augmented Generation (RAG) systems struggle with complex, long-form documents such as SEC filings, annual reports, and technical manuals. Semantic similarity does **not** equal relevance.
 
@@ -32,7 +30,7 @@ Retrieval becomes **agentic tree search**, not similarity search.
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ```
 PDF / Markdown
@@ -54,7 +52,7 @@ RAG Generation
 
 ---
 
-## 📊 Benchmark Results
+##  Benchmark Results
 
 On FinanceBench:
 
@@ -72,7 +70,7 @@ Path: Financial Stability → Monitoring Vulnerabilities
 
 ---
 
-# 🔍 Why PageIndex Works
+#  Why PageIndex Works
 
 | Aspect           | Traditional Vector RAG       | PageIndex.ai                 |
 | ---------------- | ---------------------------- | ---------------------------- |
@@ -86,7 +84,7 @@ Path: Financial Stability → Monitoring Vulnerabilities
 
 ---
 
-# 🌳 Example Tree Node
+#  Example Tree Node
 
 ```json
 {
@@ -106,7 +104,7 @@ Path: Financial Stability → Monitoring Vulnerabilities
 
 ---
 
-# ⚙️ Core Advantages
+#  Core Advantages
 
 ### ✅ No Vector Database
 
@@ -135,7 +133,7 @@ OCR-free RAG directly from PDF page images.
 
 ---
 
-# 💰 Cost & Performance Optimization
+# Cost & Performance Optimization
 
 ### Primary Bottleneck
 
@@ -166,7 +164,7 @@ Achieves **90%+ of proprietary model accuracy** on structured reasoning tasks at
 
 ---
 
-# 📦 Quickstart
+# Quickstart
 
 ```bash
 git clone https://github.com/VectifyAI/PageIndex
@@ -192,7 +190,7 @@ Ready for integration into your RAG pipeline.
 
 ---
 
-# 🧠 When to Use PageIndex
+# When to Use PageIndex
 
 ### Ideal For:
 
@@ -209,15 +207,3 @@ Ready for integration into your RAG pipeline.
 * Cross-document retrieval at web scale
 
 ---
-
-# 🏭 Production Deployment
-
-* 💬 Managed Chat
-* 🔌 API Access
-* 🐳 Docker Self-host
-* ☁ Groq / Cloudflare Workers
-* 🏢 Enterprise Private Deployments
-
----
-
-Index retrieves understanding.**
